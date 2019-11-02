@@ -1,0 +1,16 @@
+PODS:
+  - SPStorkController (1.6)
+
+DEPENDENCIES:
+  - SPStorkController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SPStorkController
+
+SPEC CHECKSUMS:
+  SPStorkController: 54293a8a1ca3c691a09eb6274b6e487b602e975a
+
+PODFILE CHECKSUM: 764bf79ff5fd53e2a78de9e57d9299e8a628b54a
+
+COCOAPODS: 1.5.3

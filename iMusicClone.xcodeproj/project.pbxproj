@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		304BED47223F604D002E5BA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BED46223F604D002E5BA9 /* AppDelegate.swift */; };
-		304BED49223F604D002E5BA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BED48223F604D002E5BA9 /* ViewController.swift */; };
+		304BED49223F604D002E5BA9 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BED48223F604D002E5BA9 /* MenuVC.swift */; };
 		304BED4C223F604D002E5BA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304BED4A223F604D002E5BA9 /* Main.storyboard */; };
-		304BED4F223F604D002E5BA9 /* iMusicClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 304BED4D223F604D002E5BA9 /* iMusicClone.xcdatamodeld */; };
 		304BED51223F604F002E5BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304BED50223F604F002E5BA9 /* Assets.xcassets */; };
-		304BED54223F604F002E5BA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304BED52223F604F002E5BA9 /* LaunchScreen.storyboard */; };
+		304BED5C223F632F002E5BA9 /* MaxiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BED5B223F632F002E5BA9 /* MaxiVC.swift */; };
+		3052799A2255131400F3F34E /* songs in Resources */ = {isa = PBXBuildFile; fileRef = 305279992255131400F3F34E /* songs */; };
+		307BDA1A224CA05C00F1DB32 /* SongInfoCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307BDA18224CA05C00F1DB32 /* SongInfoCVC.swift */; };
+		307BDA1B224CA05C00F1DB32 /* SongInfoCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307BDA19224CA05C00F1DB32 /* SongInfoCVC.xib */; };
+		3094973E22BD253900473367 /* OffsetCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3094973C22BD253900473367 /* OffsetCVC.xib */; };
+		3094973F22BD253900473367 /* OffsetCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3094973D22BD253900473367 /* OffsetCVC.swift */; };
+		30AF7838224DDF29000C485C /* MiniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF7837224DDF29000C485C /* MiniVC.swift */; };
+		30BF47EF226563EB005227D3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF47EE226563EB005227D3 /* MediaPlayer.framework */; };
+		D2EEE35D58588717A1138183 /* Pods_iMusicClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B60F7C7643E42348C47260F /* Pods_iMusicClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		304BED43223F604D002E5BA9 /* iMusicClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMusicClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304BED46223F604D002E5BA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		304BED48223F604D002E5BA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		304BED48223F604D002E5BA9 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		304BED4B223F604D002E5BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		304BED4E223F604D002E5BA9 /* iMusicClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMusicClone.xcdatamodel; sourceTree = "<group>"; };
 		304BED50223F604F002E5BA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		304BED53223F604F002E5BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		304BED55223F604F002E5BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304BED5B223F632F002E5BA9 /* MaxiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MaxiVC.swift; path = /Users/Badsewal/Documents/swiftProjects/iMusicClone/iMusicClone/MaxiVC.swift; sourceTree = "<absolute>"; };
+		305279992255131400F3F34E /* songs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = songs; sourceTree = "<group>"; };
+		307BDA18224CA05C00F1DB32 /* SongInfoCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfoCVC.swift; sourceTree = "<group>"; };
+		307BDA19224CA05C00F1DB32 /* SongInfoCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongInfoCVC.xib; sourceTree = "<group>"; };
+		3094973C22BD253900473367 /* OffsetCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffsetCVC.xib; sourceTree = "<group>"; };
+		3094973D22BD253900473367 /* OffsetCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetCVC.swift; sourceTree = "<group>"; };
+		30AF7837224DDF29000C485C /* MiniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniVC.swift; sourceTree = "<group>"; };
+		30BF47EE226563EB005227D3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3B60F7C7643E42348C47260F /* Pods_iMusicClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMusicClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AF49F27A5B5D5B91C3F5ED /* Pods-iMusicClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMusicClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMusicClone/Pods-iMusicClone.release.xcconfig"; sourceTree = "<group>"; };
+		8A6BB855EB3356F6BB8D91F1 /* Pods-iMusicClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMusicClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMusicClone/Pods-iMusicClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BF47EF226563EB005227D3 /* MediaPlayer.framework in Frameworks */,
+				D2EEE35D58588717A1138183 /* Pods_iMusicClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +58,12 @@
 		304BED3A223F604D002E5BA9 = {
 			isa = PBXGroup;
 			children = (
+				305279992255131400F3F34E /* songs */,
+				304FA0B422510A08004AD758 /* MiniVC */,
 				304BED45223F604D002E5BA9 /* iMusicClone */,
 				304BED44223F604D002E5BA9 /* Products */,
+				3C957BBB7C7B355E9212D795 /* Pods */,
+				A698D49ED700D3517C13BD83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +79,43 @@
 			isa = PBXGroup;
 			children = (
 				304BED46223F604D002E5BA9 /* AppDelegate.swift */,
-				304BED48223F604D002E5BA9 /* ViewController.swift */,
+				304BED48223F604D002E5BA9 /* MenuVC.swift */,
+				304BED5B223F632F002E5BA9 /* MaxiVC.swift */,
 				304BED4A223F604D002E5BA9 /* Main.storyboard */,
 				304BED50223F604F002E5BA9 /* Assets.xcassets */,
-				304BED52223F604F002E5BA9 /* LaunchScreen.storyboard */,
 				304BED55223F604F002E5BA9 /* Info.plist */,
-				304BED4D223F604D002E5BA9 /* iMusicClone.xcdatamodeld */,
 			);
 			path = iMusicClone;
+			sourceTree = "<group>";
+		};
+		304FA0B422510A08004AD758 /* MiniVC */ = {
+			isa = PBXGroup;
+			children = (
+				30AF7837224DDF29000C485C /* MiniVC.swift */,
+				307BDA18224CA05C00F1DB32 /* SongInfoCVC.swift */,
+				307BDA19224CA05C00F1DB32 /* SongInfoCVC.xib */,
+				3094973D22BD253900473367 /* OffsetCVC.swift */,
+				3094973C22BD253900473367 /* OffsetCVC.xib */,
+			);
+			path = MiniVC;
+			sourceTree = "<group>";
+		};
+		3C957BBB7C7B355E9212D795 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A6BB855EB3356F6BB8D91F1 /* Pods-iMusicClone.debug.xcconfig */,
+				75AF49F27A5B5D5B91C3F5ED /* Pods-iMusicClone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A698D49ED700D3517C13BD83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30BF47EE226563EB005227D3 /* MediaPlayer.framework */,
+				3B60F7C7643E42348C47260F /* Pods_iMusicClone.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 304BED58223F604F002E5BA9 /* Build configuration list for PBXNativeTarget "iMusicClone" */;
 			buildPhases = (
+				E495AD80A2CF5F6DA27A5D4F /* [CP] Check Pods Manifest.lock */,
 				304BED3F223F604D002E5BA9 /* Sources */,
 				304BED40223F604D002E5BA9 /* Frameworks */,
 				304BED41223F604D002E5BA9 /* Resources */,
+				C4CDB83DF7BFB59F328A5245 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +152,11 @@
 				TargetAttributes = {
 					304BED42223F604D002E5BA9 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,22 +183,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				304BED54223F604F002E5BA9 /* LaunchScreen.storyboard in Resources */,
+				307BDA1B224CA05C00F1DB32 /* SongInfoCVC.xib in Resources */,
+				3094973E22BD253900473367 /* OffsetCVC.xib in Resources */,
 				304BED51223F604F002E5BA9 /* Assets.xcassets in Resources */,
 				304BED4C223F604D002E5BA9 /* Main.storyboard in Resources */,
+				3052799A2255131400F3F34E /* songs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4CDB83DF7BFB59F328A5245 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iMusicClone/Pods-iMusicClone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SPStorkController/SPStorkController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SPStorkController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMusicClone/Pods-iMusicClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E495AD80A2CF5F6DA27A5D4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMusicClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		304BED3F223F604D002E5BA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				304BED49223F604D002E5BA9 /* ViewController.swift in Sources */,
-				304BED4F223F604D002E5BA9 /* iMusicClone.xcdatamodeld in Sources */,
+				304BED49223F604D002E5BA9 /* MenuVC.swift in Sources */,
+				307BDA1A224CA05C00F1DB32 /* SongInfoCVC.swift in Sources */,
+				30AF7838224DDF29000C485C /* MiniVC.swift in Sources */,
 				304BED47223F604D002E5BA9 /* AppDelegate.swift in Sources */,
+				304BED5C223F632F002E5BA9 /* MaxiVC.swift in Sources */,
+				3094973F22BD253900473367 /* OffsetCVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +255,6 @@
 				304BED4B223F604D002E5BA9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		304BED52223F604F002E5BA9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				304BED53223F604F002E5BA9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,11 +378,13 @@
 		};
 		304BED59223F604F002E5BA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6BB855EB3356F6BB8D91F1 /* Pods-iMusicClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY622E6NGC;
 				INFOPLIST_FILE = iMusicClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +398,13 @@
 		};
 		304BED5A223F604F002E5BA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75AF49F27A5B5D5B91C3F5ED /* Pods-iMusicClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY622E6NGC;
 				INFOPLIST_FILE = iMusicClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,19 +438,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		304BED4D223F604D002E5BA9 /* iMusicClone.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				304BED4E223F604D002E5BA9 /* iMusicClone.xcdatamodel */,
-			);
-			currentVersion = 304BED4E223F604D002E5BA9 /* iMusicClone.xcdatamodel */;
-			path = iMusicClone.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 304BED3B223F604D002E5BA9 /* Project object */;
 }

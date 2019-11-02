@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BB8ED57FC25E85A90E3907495E23199 /* SPStorkCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD6AAC6EE39B29572157E1B453E9B5 /* SPStorkCloseView.swift */; };
+		13A767993996ACD5631733926433E3C8 /* SPStorkPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE336F1904CB3722CCF0FEE2B751511B /* SPStorkPresentationController.swift */; };
+		28C54D8DD660516A04CF0F6BFD89A9A2 /* SPStorkPresentingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9B7B440C6EAFD5799BDE84B47280B /* SPStorkPresentingAnimationController.swift */; };
+		306E47040154A3B4D90143710C9FF614 /* SPStorkCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C724382835FDEAA86F0DDEC7FFE02 /* SPStorkCloseButton.swift */; };
+		3B1BBFB436E9E625A295416F35A9159D /* SPStorkIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0551E76B6C75C1521B934BB71A5A5206 /* SPStorkIndicatorView.swift */; };
+		3C99F76E8E75399D04C087CD0BB22D03 /* SPStorkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2CC5BCAFA75D2FF4B1BE7F38BC6155 /* SPStorkController.swift */; };
+		4545485208C063D39A206D1F0A158AD3 /* SPStorkViewControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2546362559F06823F70D134666C2AB /* SPStorkViewControllerExtenshion.swift */; };
+		484203AAA0B4BC62B356D7C3EECAF240 /* Pods-iMusicClone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871FA926D28DAB70E368C6BB49E1024 /* Pods-iMusicClone-dummy.m */; };
+		615D7C4F02AB6F96015558D4672A3C04 /* Pods-iMusicClone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECAF8E43B19D2CAFF36933A6FBF1C506 /* Pods-iMusicClone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F4DADAFB88745E080D7B515249E235D /* SPStorkTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52695F4BF5A47484D550E671E8F9510 /* SPStorkTransitioningDelegate.swift */; };
+		830C30A879B2D1725BD4809883FCF522 /* SPStorkController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953C8EF4FE388E2305EA84FF2D5B07A /* SPStorkController-dummy.m */; };
+		A8132FDC7AD34B066CCB58581D4A4A64 /* SPStorkCodeDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BEF1732246020BA261286B977EF30B /* SPStorkCodeDraw.swift */; };
+		AC2636A87DFB2112F29B1CA79D7E8E7D /* SPStorkControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB5540706DBB7E4DEF6358F0636A32 /* SPStorkControllerDelegate.swift */; };
+		C00E7EB7E001E6F795DECD5D19807D3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		C178372F3A419548847F847E9E3A7D58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		FB4F3C3A64FBB4CA4D53467C0A3B152E /* SPStorkDismissingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DE9F2FF46F5AD4AF1445A21C5672FA /* SPStorkDismissingAnimationController.swift */; };
+		FD54CB9EA4C03230BB84C16F6AF2B487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		FEEE1221C78BFCD9101DC4C0A8B692D5 /* SPStorkController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DB2A9EBE60F31B90F9240DF06793AC /* SPStorkController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D0091A403BE8B060832BA71CD34BDDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCBEC74E63DEA72C5F072A257BABBAA;
+			remoteInfo = SPStorkController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0551E76B6C75C1521B934BB71A5A5206 /* SPStorkIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkIndicatorView.swift; path = Source/SPStorkController/Views/SPStorkIndicatorView.swift; sourceTree = "<group>"; };
+		08BEF1732246020BA261286B977EF30B /* SPStorkCodeDraw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCodeDraw.swift; path = Source/SPStorkController/CodeDraw/SPStorkCodeDraw.swift; sourceTree = "<group>"; };
+		0B72F684C24F9E6C61CCD46242358072 /* Pods-iMusicClone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iMusicClone-acknowledgements.plist"; sourceTree = "<group>"; };
+		1953C8EF4FE388E2305EA84FF2D5B07A /* SPStorkController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPStorkController-dummy.m"; sourceTree = "<group>"; };
+		1E2546362559F06823F70D134666C2AB /* SPStorkViewControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkViewControllerExtenshion.swift; path = Source/SPStorkController/Extenshion/SPStorkViewControllerExtenshion.swift; sourceTree = "<group>"; };
+		1EBB867AF60924ECAF01E8BE59C97091 /* SPStorkController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPStorkController.modulemap; sourceTree = "<group>"; };
+		40DB2A9EBE60F31B90F9240DF06793AC /* SPStorkController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPStorkController-umbrella.h"; sourceTree = "<group>"; };
+		43DE9F2FF46F5AD4AF1445A21C5672FA /* SPStorkDismissingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkDismissingAnimationController.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkDismissingAnimationController.swift; sourceTree = "<group>"; };
+		4A2CC5BCAFA75D2FF4B1BE7F38BC6155 /* SPStorkController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkController.swift; path = Source/SPStorkController/SPStorkController.swift; sourceTree = "<group>"; };
+		4AC9B7B440C6EAFD5799BDE84B47280B /* SPStorkPresentingAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkPresentingAnimationController.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkPresentingAnimationController.swift; sourceTree = "<group>"; };
+		4FDFCEE765C9D4B2DE63E10AE824C8FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DB94CD81131E6F7C52B572A2BDFC6D /* SPStorkController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPStorkController.xcconfig; sourceTree = "<group>"; };
+		6871FA926D28DAB70E368C6BB49E1024 /* Pods-iMusicClone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iMusicClone-dummy.m"; sourceTree = "<group>"; };
+		6DB1A409005DF7AAB6743ACE7EAE4004 /* Pods-iMusicClone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iMusicClone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71D0258AD53ADCB71777D0895A95158A /* Pods-iMusicClone-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iMusicClone-frameworks.sh"; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99C0A35897B0D171E56919324EA041ED /* Pods-iMusicClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iMusicClone.release.xcconfig"; sourceTree = "<group>"; };
+		A012889D45263EF0BE41E064C5B9F0B8 /* SPStorkController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPStorkController-prefix.pch"; sourceTree = "<group>"; };
+		A88ADDADECBC866A64273889E33D1592 /* Pods-iMusicClone-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iMusicClone-resources.sh"; sourceTree = "<group>"; };
+		AD081CC70F86023DDA24D0B18EECD752 /* Pods-iMusicClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iMusicClone.debug.xcconfig"; sourceTree = "<group>"; };
+		B1FA24574FAEE5B45AC1CE109A8A8812 /* Pods_iMusicClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iMusicClone.framework; path = "Pods-iMusicClone.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BB5540706DBB7E4DEF6358F0636A32 /* SPStorkControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkControllerDelegate.swift; path = Source/SPStorkController/Protocols/SPStorkControllerDelegate.swift; sourceTree = "<group>"; };
+		B5471EA29F063B1725E2D69939433C9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5CD6AAC6EE39B29572157E1B453E9B5 /* SPStorkCloseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCloseView.swift; path = Source/SPStorkController/Views/SPStorkCloseView.swift; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE336F1904CB3722CCF0FEE2B751511B /* SPStorkPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkPresentationController.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkPresentationController.swift; sourceTree = "<group>"; };
+		D19C724382835FDEAA86F0DDEC7FFE02 /* SPStorkCloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkCloseButton.swift; path = Source/SPStorkController/Views/SPStorkCloseButton.swift; sourceTree = "<group>"; };
+		DB2B330D21A60E58F27862E2905833D1 /* Pods-iMusicClone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iMusicClone.modulemap"; sourceTree = "<group>"; };
+		E6B5A3774353A576B0ABB4BC2D756713 /* SPStorkController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPStorkController.framework; path = SPStorkController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAF8E43B19D2CAFF36933A6FBF1C506 /* Pods-iMusicClone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iMusicClone-umbrella.h"; sourceTree = "<group>"; };
+		F52695F4BF5A47484D550E671E8F9510 /* SPStorkTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStorkTransitioningDelegate.swift; path = Source/SPStorkController/TransitioningDelegate/SPStorkTransitioningDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4D40AEBF5D5E3047DC6A26BA1AFD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C178372F3A419548847F847E9E3A7D58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4243A335DAD9A0D760832E097AD8353C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00E7EB7E001E6F795DECD5D19807D3D /* Foundation.framework in Frameworks */,
+				FD54CB9EA4C03230BB84C16F6AF2B487 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1CFFD0737824111CBC342820951FA649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B27F27FE8B1E9959DA80B908419AB46 /* SPStorkController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B27F27FE8B1E9959DA80B908419AB46 /* SPStorkController */ = {
+			isa = PBXGroup;
+			children = (
+				D19C724382835FDEAA86F0DDEC7FFE02 /* SPStorkCloseButton.swift */,
+				B5CD6AAC6EE39B29572157E1B453E9B5 /* SPStorkCloseView.swift */,
+				08BEF1732246020BA261286B977EF30B /* SPStorkCodeDraw.swift */,
+				4A2CC5BCAFA75D2FF4B1BE7F38BC6155 /* SPStorkController.swift */,
+				B3BB5540706DBB7E4DEF6358F0636A32 /* SPStorkControllerDelegate.swift */,
+				43DE9F2FF46F5AD4AF1445A21C5672FA /* SPStorkDismissingAnimationController.swift */,
+				0551E76B6C75C1521B934BB71A5A5206 /* SPStorkIndicatorView.swift */,
+				BE336F1904CB3722CCF0FEE2B751511B /* SPStorkPresentationController.swift */,
+				4AC9B7B440C6EAFD5799BDE84B47280B /* SPStorkPresentingAnimationController.swift */,
+				F52695F4BF5A47484D550E671E8F9510 /* SPStorkTransitioningDelegate.swift */,
+				1E2546362559F06823F70D134666C2AB /* SPStorkViewControllerExtenshion.swift */,
+				96F9AA19753FC539DCFC30904ACF09B7 /* Support Files */,
+			);
+			name = SPStorkController;
+			path = SPStorkController;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1CFFD0737824111CBC342820951FA649 /* Pods */,
+				F0E59F2979757DECFE42702BFF7C55BD /* Products */,
+				EF3580AD8FBDDB492892336CB287BA58 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96F9AA19753FC539DCFC30904ACF09B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FDFCEE765C9D4B2DE63E10AE824C8FA /* Info.plist */,
+				1EBB867AF60924ECAF01E8BE59C97091 /* SPStorkController.modulemap */,
+				52DB94CD81131E6F7C52B572A2BDFC6D /* SPStorkController.xcconfig */,
+				1953C8EF4FE388E2305EA84FF2D5B07A /* SPStorkController-dummy.m */,
+				A012889D45263EF0BE41E064C5B9F0B8 /* SPStorkController-prefix.pch */,
+				40DB2A9EBE60F31B90F9240DF06793AC /* SPStorkController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SPStorkController";
+			sourceTree = "<group>";
+		};
+		BAD05FF93421133C141455E5D231A651 /* Pods-iMusicClone */ = {
+			isa = PBXGroup;
+			children = (
+				B5471EA29F063B1725E2D69939433C9B /* Info.plist */,
+				DB2B330D21A60E58F27862E2905833D1 /* Pods-iMusicClone.modulemap */,
+				6DB1A409005DF7AAB6743ACE7EAE4004 /* Pods-iMusicClone-acknowledgements.markdown */,
+				0B72F684C24F9E6C61CCD46242358072 /* Pods-iMusicClone-acknowledgements.plist */,
+				6871FA926D28DAB70E368C6BB49E1024 /* Pods-iMusicClone-dummy.m */,
+				71D0258AD53ADCB71777D0895A95158A /* Pods-iMusicClone-frameworks.sh */,
+				A88ADDADECBC866A64273889E33D1592 /* Pods-iMusicClone-resources.sh */,
+				ECAF8E43B19D2CAFF36933A6FBF1C506 /* Pods-iMusicClone-umbrella.h */,
+				AD081CC70F86023DDA24D0B18EECD752 /* Pods-iMusicClone.debug.xcconfig */,
+				99C0A35897B0D171E56919324EA041ED /* Pods-iMusicClone.release.xcconfig */,
+			);
+			name = "Pods-iMusicClone";
+			path = "Target Support Files/Pods-iMusicClone";
+			sourceTree = "<group>";
+		};
+		EF3580AD8FBDDB492892336CB287BA58 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAD05FF93421133C141455E5D231A651 /* Pods-iMusicClone */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F0E59F2979757DECFE42702BFF7C55BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA24574FAEE5B45AC1CE109A8A8812 /* Pods_iMusicClone.framework */,
+				E6B5A3774353A576B0ABB4BC2D756713 /* SPStorkController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87C529D9D173CCFFA4B1EC1005F9D0E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEE1221C78BFCD9101DC4C0A8B692D5 /* SPStorkController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC100C6B0E46F49DF210B9C07A3F55E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615D7C4F02AB6F96015558D4672A3C04 /* Pods-iMusicClone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A0425264D03B676D83B74BFA0ED6ECF1 /* Pods-iMusicClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2FD6DB47BB92769F5F8728E4899D662 /* Build configuration list for PBXNativeTarget "Pods-iMusicClone" */;
+			buildPhases = (
+				D08FF6662FBA9D65F9D14996C019BB85 /* Sources */,
+				3C4D40AEBF5D5E3047DC6A26BA1AFD07 /* Frameworks */,
+				BC100C6B0E46F49DF210B9C07A3F55E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD9F652BD236AA9B41FCE9184B3BE71 /* PBXTargetDependency */,
+			);
+			name = "Pods-iMusicClone";
+			productName = "Pods-iMusicClone";
+			productReference = B1FA24574FAEE5B45AC1CE109A8A8812 /* Pods_iMusicClone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFCBEC74E63DEA72C5F072A257BABBAA /* SPStorkController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C928D161CCC3995B9A39BE351800B77 /* Build configuration list for PBXNativeTarget "SPStorkController" */;
+			buildPhases = (
+				CB23091FDCBC697E69DF1B330F63424E /* Sources */,
+				4243A335DAD9A0D760832E097AD8353C /* Frameworks */,
+				87C529D9D173CCFFA4B1EC1005F9D0E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPStorkController;
+			productName = SPStorkController;
+			productReference = E6B5A3774353A576B0ABB4BC2D756713 /* SPStorkController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F0E59F2979757DECFE42702BFF7C55BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0425264D03B676D83B74BFA0ED6ECF1 /* Pods-iMusicClone */,
+				FFCBEC74E63DEA72C5F072A257BABBAA /* SPStorkController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB23091FDCBC697E69DF1B330F63424E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306E47040154A3B4D90143710C9FF614 /* SPStorkCloseButton.swift in Sources */,
+				0BB8ED57FC25E85A90E3907495E23199 /* SPStorkCloseView.swift in Sources */,
+				A8132FDC7AD34B066CCB58581D4A4A64 /* SPStorkCodeDraw.swift in Sources */,
+				830C30A879B2D1725BD4809883FCF522 /* SPStorkController-dummy.m in Sources */,
+				3C99F76E8E75399D04C087CD0BB22D03 /* SPStorkController.swift in Sources */,
+				AC2636A87DFB2112F29B1CA79D7E8E7D /* SPStorkControllerDelegate.swift in Sources */,
+				FB4F3C3A64FBB4CA4D53467C0A3B152E /* SPStorkDismissingAnimationController.swift in Sources */,
+				3B1BBFB436E9E625A295416F35A9159D /* SPStorkIndicatorView.swift in Sources */,
+				13A767993996ACD5631733926433E3C8 /* SPStorkPresentationController.swift in Sources */,
+				28C54D8DD660516A04CF0F6BFD89A9A2 /* SPStorkPresentingAnimationController.swift in Sources */,
+				7F4DADAFB88745E080D7B515249E235D /* SPStorkTransitioningDelegate.swift in Sources */,
+				4545485208C063D39A206D1F0A158AD3 /* SPStorkViewControllerExtenshion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08FF6662FBA9D65F9D14996C019BB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484203AAA0B4BC62B356D7C3EECAF240 /* Pods-iMusicClone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBD9F652BD236AA9B41FCE9184B3BE71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPStorkController;
+			target = FFCBEC74E63DEA72C5F072A257BABBAA /* SPStorkController */;
+			targetProxy = 4D0091A403BE8B060832BA71CD34BDDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01D733C5F6CC3EF6861F37B9320A700C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C0A35897B0D171E56919324EA041ED /* Pods-iMusicClone.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iMusicClone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iMusicClone/Pods-iMusicClone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0B6AE94E78934C8E988E0A85D301900A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD081CC70F86023DDA24D0B18EECD752 /* Pods-iMusicClone.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iMusicClone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iMusicClone/Pods-iMusicClone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43078EAA2321F0C477D260AC9B020B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52DB94CD81131E6F7C52B572A2BDFC6D /* SPStorkController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPStorkController/SPStorkController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPStorkController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPStorkController/SPStorkController.modulemap";
+				PRODUCT_MODULE_NAME = SPStorkController;
+				PRODUCT_NAME = SPStorkController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D1FE35665547C907D0659EB66FAE5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52DB94CD81131E6F7C52B572A2BDFC6D /* SPStorkController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPStorkController/SPStorkController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPStorkController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPStorkController/SPStorkController.modulemap";
+				PRODUCT_MODULE_NAME = SPStorkController;
+				PRODUCT_NAME = SPStorkController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C928D161CCC3995B9A39BE351800B77 /* Build configuration list for PBXNativeTarget "SPStorkController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43078EAA2321F0C477D260AC9B020B35 /* Debug */,
+				4D1FE35665547C907D0659EB66FAE5FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2FD6DB47BB92769F5F8728E4899D662 /* Build configuration list for PBXNativeTarget "Pods-iMusicClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6AE94E78934C8E988E0A85D301900A /* Debug */,
+				01D733C5F6CC3EF6861F37B9320A700C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
